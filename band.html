@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Band</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script
+      src="https://kit.fontawesome.com/605f8fc56d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="band.css" />
+  </head>
+  <body>
+    <header>
+		<ul class="nav">
+			<li class="nav-item">
+				<a href="#">Home</a>
+			</li>
+			<li class="nav-item">
+				<a href="#">Band</a>
+			</li>
+			<li class="nav-item">
+				<a href="#">Tour</a>
+			</li>
+			<li class="nav-item">
+				<a href="#">Contact</a>
+			</li>
+			<li class="nav-item">
+				<a href="#">
+					More
+					<i class="fas fa-caret-down"></i>
+				</a>
+				<ul class="subnav">
+					<li class="subnav-item">
+						<a href="#">Merchandise</a>
+					</li>
+					<li class="subnav-item">
+						<a href="#">Extras</a>
+					</li>
+					<li class="subnav-item">
+						<a href="#">Media</a>
+					</li>
+				</ul>
+			</li>
+			<li class="nav-item">
+				<a href="#">
+					<i class="fas fa-search"></i>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="js-appear-dropdown" href="#">
+					<i class="fas fa-bars"></i>
+				</a>
+			</li>
+		</ul>
+		<ul style="display: none;" id="js-dropdown" class="dropdown">
+		<li class="dropdown-item">
+			<a href="#">Band</a>
+		</li>
+		<li class="dropdown-item">
+			<a href="#">Tour</a>
+		</li>
+		<li class="dropdown-item">
+			<a href="#">Contact</a>
+		</li>
+		<li class="dropdown-item">
+			<a href="#">Merch</a>
+		</li>
+	</ul>
+	</header>
+    <!-- Main content -->
+    <div class="content">
+      <div class="content-background">
+        <div class="background-intro">
+          <h3 class="background-title">Los Angeles</h3>
+          <p class="background-text">
+            We had the best time playing at Venice Beach!
+          </p>
+        </div>
+      </div>
+      <div class="content-intro">
+        <h2 class="content-heading">The Band</h2>
+        <p class="content-desc">We love music</p>
+        <p class="content-text">
+          We have created a fictional band website. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.
+        </p>
+        <div class="content-member">
+          <div class="member-item">
+            <h5 class="member-name">Name</h5>
+            <img
+              src="https://www.w3schools.com/w3images/bandmember.jpg"
+              alt="Person"
+              class="member-image"
+            />
+          </div>
+          <div class="member-item">
+            <h5 class="member-name">Name</h5>
+            <img
+              src="https://www.w3schools.com/w3images/bandmember.jpg"
+              alt="Person"
+              class="member-image"
+            />
+          </div>
+          <div class="member-item">
+            <h5 class="member-name">Name</h5>
+            <img
+              src="https://www.w3schools.com/w3images/bandmember.jpg"
+              alt="Person"
+              class="member-image"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="content-tour-date">
+        <div class="content-tour-wrap">
+          <h2 class="content-heading">Tour Dates</h2>
+          <p class="content-desc">Remember to book your tickets!</p>
+          <div class="ticket-dates">
+            <p class="month-ticket">
+              September
+              <span class="sold-out">Sold out</span>
+            </p>
+            <p class="month-ticket">
+              October
+              <span class="sold-out">Sold out</span>
+            </p>
+            <p class="month-ticket">
+              November
+              <span class="tickets-left">3</span>
+            </p>
+          </div>
+          <div class="content-destination">
+            <div class="destination-item">
+              <img
+                src="https://www.w3schools.com/w3images/newyork.jpg"
+                alt="New York"
+                class="destination-image"
+              />
+              <div class="destination-info">
+                <p class="destination-city">New York</p>
+                <p class="destination-dates">Fri 27 Nov 2016</p>
+                <p class="destination-text">
+                  Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                </p>
+                <button class="buy-tickets js-buy-tickets">Buy Tickets</button>
+              </div>
+            </div>
+            <div class="destination-item">
+              <img
+                src="https://www.w3schools.com/w3images/paris.jpg"
+                alt="New York"
+                class="destination-image"
+              />
+              <div class="destination-info">
+                <p class="destination-city">Paris</p>
+                <p class="destination-dates">Sat 28 Nov 2016</p>
+                <p class="destination-text">
+                  Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                </p>
+                <button class="buy-tickets js-buy-tickets">Buy Tickets</button>
+              </div>
+            </div>
+            <div class="destination-item">
+              <img
+                src="https://www.w3schools.com/w3images/sanfran.jpg"
+                alt="New York"
+                class="destination-image"
+              />
+              <div class="destination-info">
+                <p class="destination-city">San Francisco</p>
+                <p class="destination-dates">Sun 29 Nov 2016</p>
+                <p class="destination-text">
+                  Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                </p>
+                <button class="buy-tickets js-buy-tickets">Buy Tickets</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-contact">
+        <h2 class="content-heading">Contact</h2>
+        <p class="content-desc">Fan? Drop a note!</p>
+        <div class="contact-wrap">
+          <div class="contact-left">
+            <p>
+              <i class="fas fa-map-marker-alt"> </i>
+              <span class="contact-location"> Chicago, US </span>
+            </p>
+            <p>
+              <i class="fas fa-phone-alt"> </i>
+              <span class="contact-phone"> Phone: +00 151515 </span>
+            </p>
+            <p>
+              <i class="fas fa-envelope"> </i>
+              <span class="contact-email"> Email: mail@mail.com </span>
+            </p>
+          </div>
+          <form class="contact-right">
+            <input
+              placeholder="Name"
+              required
+              type="text"
+              id="name"
+              name="name"
+              class="form-input input-name"
+            />
+            <input
+              placeholder="Email"
+              required
+              type="text"
+              class="form-input input-email"
+            />
+            <input
+              placeholder="Message"
+              required
+              type="text"
+              class="form-input input-message"
+            />
+            <button type="submit" class="contact-send">SEND</button>
+          </form>
+        </div>
+      </div>
+      <img
+        src="https://www.w3schools.com/w3images/map.jpg"
+        alt="City"
+        class="city-image"
+      />
+    </div>
+    <footer>
+      <div class="social-media">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-github"></i>
+        <i class="fab fa-pinterest-p"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+      <p>Powered by <a href="#">w3.css</a></p>
+    </footer>
+    <!-- Buy tickets -->
+    <div class="modal js-modal">
+      <div class="modal-container js-modal-container">
+        <div class="modal-close js-modal-close">
+          <i class="fas fa-times"></i>
+        </div>
+        <div class="modal-header">
+          <i class="fas fa-suitcase"></i>
+          Tickets
+        </div>
+        <form class="modal-body">
+          <label for="ticket-quantity" class="modal-label">
+            <i class="fas fa-shopping-cart"></i>
+            Tickets, $15 per person
+          </label>
+          <input
+            required
+            placeholder="How many?"
+            id="ticket-quantity"
+            type="text"
+            class="modal-input"
+          />
+
+          <label for="ticket-email" class="modal-label">
+            <i class="fas fa-user"></i>
+            Send To
+          </label>
+          <input
+            id="ticket-email"
+            required
+            placeholder="Enter email"
+            type="email"
+            class="modal-input"
+          />
+          <button class="btn-submit" type="submit">
+            Pay
+            <i class="fas fa-check"></i>
+          </button>
+        </form>
+        <span>Need <a href="#">help?</a></span>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

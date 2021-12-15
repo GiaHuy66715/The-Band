@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to The Band</title>
+    <script src="https://kit.fontawesome.com/605f8fc56d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <span class="logo">Anywhere app.</span>
+        <a href="#" class="header-bar">Home</a>
+        <a href="#" class="header-bar">Join</a>
+    </header>
+    <!-- Main content -->
+    <div class="main-content">
+        <p class="signup-desc">START FOR FREE</p>
+        <h1 class="signup-title">Create new account<span>.</span></h1>
+        <p class="signup-tologin">
+            Already a member?
+        </p>
+        <a href="#" class="login-account">Login</a>
+        <form action="#" class="form-field">
+            <div class="form-first-name">
+                <input required placeholder=" " type="text" id="input-first-name" class="form-input">
+                <label for="input-first-name" class="form-label">First name</label>
+            </div>
+            <div class="form-last-name">
+                <input required placeholder=" " type="text" id="input-last-name" class="form-input">
+                <label for="input-last-name" class="form-label">Last name</label>
+            </div>
+            <div class="form-email">
+                <input required placeholder=" " type="email" id="input-email" class="form-input">
+                <label for="input-email" class="form-label">Email</label>
+            </div>
+
+            <div class="form-password">
+                <input required placeholder=" " type="password" id="input-password" class="form-input">
+                <label for="input-password" class="form-label">Password</label>
+            </div>
+            <div class="method-choice">
+                <button class="form-submit" type="submit">Change method</button>
+                <button class="form-submit" type="submit">Create account</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <h3>The Band</h3>
+    </footer>
+    <div class="loading-container js-loading-container">
+        <div class="loading-circle"></div>
+        <div class="congrats js-congrats">
+            <h3 class="congrats-header">
+                Congratulations!
+            </h3>
+            <p class="congrats-text">
+                Your account was successfully created.
+                Enjoy your time with our show.
+            </p>
+            <p class="join-us">
+                <!-- <p class="loading-circle"></p> -->
+                Join us 
+                <a href="./band.html" class="congrats-link-page">here
+                </a>
+            </p>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
